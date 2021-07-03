@@ -22,7 +22,7 @@ int main()
       scanf("%d",&InputNumber);
       if(InputNumber == RandomNumber)
       {
-         printf("Congratulations. You guessed it!");
+         printf("Congratulations. You guessed it! ");
          i=0;
       }else if(InputNumber>RandomNumber)
       {
@@ -34,6 +34,8 @@ int main()
 
       }
    }
+
+   printf("The Right Number is: %d\n",RandomNumber);
 
    return 0;
 }
